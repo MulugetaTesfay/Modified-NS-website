@@ -1,0 +1,1143 @@
+*{
+    box-sizing: border-box;
+}
+body{   
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  background: #e6e6e9;
+  font-family: sans-serif;
+  color: #444468; 
+}
+.header{    
+    box-shadow: 0 0.125rem 0 0 rgba(7,7,33,.15);
+    background: #fff;
+    height: 60px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1340px;
+    z-index: 520;
+    justify-content: center;
+}
+.li-lists{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;  
+  height: 47px;
+  padding-right: 5rem;
+  padding-bottom: 2rem;
+  list-style: none;
+}
+.search-icon{
+ height: 1.8rem;
+ width: 2rem;
+ padding-top: 10px;
+ margin-left: 31rem;
+ padding-right: 5px;
+ text-decoration: none;
+}
+.menu-icon{
+  height: 1.5rem;
+  width: 2rem;
+  margin-right: 30px;
+  margin-top: 1.3rem;
+  text-decoration: none; 
+}
+.top-logo{
+  height: 3rem;
+  width: 3rem;
+  padding-top: 1.5rem;   
+}
+.person{
+  height: 2.2rem;
+  width: 1.5rem;
+  padding-top: 14px;
+  margin-left: 27px;
+  padding-right: 6px;
+  text-decoration: none;  
+}
+.nl-flag{
+  height: 2rem;
+  width: 1.2rem;
+  padding-top: 20px;
+  margin-left: 1rem;
+  margin-right: 14px;
+  text-decoration: none;
+}
+.plan-journey{
+  padding-top: 5rem;
+  color: #243b63;
+  font-size: 30px;
+  padding-left: 8.5rem;
+  margin-left: 3rem;
+}
+.dep-arri{
+  display: flex;
+  font-size: 14px;
+  padding-left: 6rem;
+  padding-bottom: 4rem;
+  margin-left: 3rem;
+  margin-bottom: 6rem;
+  color: #243b63;
+  list-style:  none;
+}
+.departure{
+  padding-left: .125rem;
+  text-decoration: underline;
+  color: #243b63;
+}
+.dep-arri :hover{
+  text-decoration: underline;
+  margin-bottom: 15rem; 
+}
+.arrival{
+  padding-left: 1rem;
+  padding-right: 1rem;
+  color: #243b63;
+  text-decoration: none;
+}
+.calandar{
+  height: 1.1rem;
+  width: 1.2rem;
+  border: 1px solid gray;
+  background: yellow;
+  text-decoration: none;
+}
+.rectangle:hover{
+  text-decoration: underline;
+}
+.today{
+  padding-left: 1.6rem;
+  color: #243b63;
+  text-decoration: none;
+}
+.bracket{
+  padding-left: 2rem;
+  padding-right: 2rem;
+  color: #243b63;
+  text-decoration: none;
+  font-size: 20px;
+}
+.icon-clock{
+  height: 1rem;
+  width: 1rem;
+  color: #243b63;
+  text-decoration: none;     
+}
+.icon-clock:hover{
+  text-decoration: underline;
+}
+.time{
+  padding-left: 2rem;
+  color: #243b63;
+  text-decoration: none;
+}
+.bracket-two{
+   padding-left: 2rem;
+   padding-right: 2rem;
+   color: #243b63;
+   text-decoration: none;
+   font-size: 20px;  
+}
+.icon-circle{
+  height: 1rem;
+  width: 1rem;
+  color: #243b63;
+  text-decoration: none;
+}
+.icon-circle:hover{
+  text-decoration: underline;
+}
+.now{
+  padding-left: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  color: #243b63;
+  text-decoration: none;
+}
+.setting{
+   height: 1rem;
+   width: 1rem;
+   color: #243b63;
+   text-decoration: none;   
+}
+.setting:hover{
+  text-decoration: underline;
+}
+.option{
+  padding-left: 1rem;
+  color: #243b63;
+  text-decoration: none;
+}
+.blue-box{
+  display: inline-block;
+  flex-direction: column;
+  color: white;
+  width: 7rem;
+  height: 2.5rem;
+  margin-left: 11.5rem;
+  border-radius: 4px;
+  text-align: center;
+  justify-content: center;
+  text-decoration: none;
+  background-color: #0063d3;
+  white-space: nowrap;
+  padding-top: .5rem;
+  margin-bottom: 5rem;
+  box-shadow: inset 0 -0.125rem 0 #004ba0; 
+  font-size: 1rem;
+  font-weight: 400;
+}
+.blue-box:hover {
+  background-color:#004ba0;
+  text-decoration: none;
+}
+.big-image{
+  height: 350px;
+  width: 1000px;
+  display: flex;
+  align-self: center;
+  margin-bottom: 2rem;
+  background: #fff;
+  margin-top: -5rem;
+  cursor: pointer;
+}
+.big-image{
+  background: url(https://www.ns.nl/binaries/_ht_1555319633740/large/content/gallery/ns-nl/carrousel-hero-afbeeldingen/ns-koningsdag.jpg) 
+}
+.big-texts{
+  font-family: NS Sans,Segoe UI,Myriad,Verdana,sans-serif;
+  color: white;
+  padding-left: 2rem;
+}
+.capitalized-text{
+  font-size: 30px;
+  font-weight: bold;
+}
+.price-text{
+  font-size: 15px;
+}
+.euro{
+  font-size: 28px;
+  background: none;
+  color: white;
+}
+.big-image-button{
+  display: flex;
+  flex-direction: column;
+  color: white;
+  width: 8rem;
+  height: 2.5rem;
+  text-align: center;
+  justify-content: center;
+  text-decoration: none;
+  background-color:#ffc917;
+  border-radius: 0.2rem;
+  font-size: 1rem;
+  font-weight: 400;  
+}
+.check-box{
+  background: #ffc917;
+  height: 475px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  font-size: 50px;
+}
+.two-checks{
+  display: flex;
+  align-self: center;
+  font-size: 15px;
+  font-weight: normal;
+  padding-top: 2rem;
+}
+.button-a{
+  height: 2.3rem;
+  width: 30em;
+  background: white;
+  color: gray;
+  margin-right: 1rem;
+  padding-top: 0.5rem;
+  margin-top: 0.9rem;
+  padding-left: 1rem;
+}
+.button-a::nth-word(1) {
+  margin-right: 20px;
+  color: black;
+}
+.arrow{
+  width: 2rem;
+  height: 2rem;
+  margin-top: 1rem;
+}
+.button-b{
+  height: 2.3rem;
+  width: 30em;
+  background: white;
+  color: gray;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+  padding-left: 1rem;
+  padding-top: 0.5rem;
+}
+.black{
+  color: black;
+  background: none;
+  font-weight: bold;
+  padding-right: 1rem;
+}
+.other-horizontal-line{
+  display: flex;
+  width: 970px;
+  border-top: .0625rem solid #e6b70e;
+  margin-top: -17rem;
+  align-self: center;
+}
+.delays-info{
+  display: flex;
+  font-size: 14px;
+  font-family: sans-serif;
+  padding-left: 8rem;
+  margin-left: 3rem;
+  margin-bottom: 3rem;
+  padding-bottom: 3rem;
+  color: #243b63;
+  list-style:  none;
+  cursor: pointer; 
+}
+.warning-button{
+  background: url(http://i65.tinypic.com/w8w7ra.png);
+  
+}
+.warning-button{
+  width: 2.5rem;
+  height: 2.5rem;
+}
+.info-text{
+  padding-top: .5rem;
+}
+.more-info{
+  padding-top: .5rem;
+  padding-left: 2rem; 
+}
+.three-boxes{
+  display: flex;  
+  height: 320px;
+  width: 1000px;
+  align-self: center;
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+  list-style: none;
+  font-family: sans-serif;
+  
+}
+.nav-link{
+  text-decoration: none;
+  padding-top: 1rem;
+  color: rgb(23, 23, 209);
+  font-size: 14px; 
+}
+.heading{
+  display: flex;
+}
+.under-tickets{
+  flex: 1;
+  display: flex;
+  width: 300.3px;
+  flex-direction: column;
+  justify-content: space-around;  
+  box-shadow: 0 0.125rem 0 0 rgba(7,7,33,.15);
+  background: #fff;
+  padding-left: 2rem;
+  margin-right: 0.8rem;
+  padding-bottom: 1rem; 
+}
+.ticket{
+  font-size: 18px;
+  color: #243b63;
+  padding-top: 1.4rem 
+}
+.audience-image{
+  width: 8rem;
+  height: 5rem;
+  justify-content: flex-end;
+  margin-left: 2rem;
+  padding-left: 1rem;
+  padding-bottom: 2.5rem;
+}
+.under-popular{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex: 1;
+  width: 300.3px;
+  background: #fff;
+  box-shadow: 0 0.125rem 0 0 rgba(7,7,33,.15);
+  padding-left: 2rem;
+  margin-left: 0.8rem;
+  margin-right: .5rem;
+  padding-bottom: 1rem; 
+}
+.ov-image{
+  width: 4.5rem;
+  height: 4rem;
+  justify-content: flex-end;
+  margin-left: 2rem; 
+}
+.most-popular{
+  font-size: 18px;
+  color: #243b63;
+  padding-top: 1rem;
+}
+.customer-service{
+  font-size: 18px;
+  color: #243b63;  
+}
+.one-person{
+  width: 6rem;
+  height: 4rem;
+  justify-content: flex-end;
+  margin-left: auto;
+  background: #fff;
+}
+.under-customer-service{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex: 1;
+  background: #fff;
+  width: 330.3px;
+  box-shadow: 0 0.125rem 0 0 rgba(7,7,33,.15);
+  padding-left: 2rem;
+  margin-left: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem; 
+}
+.tickets{
+  font-size: 20px;
+  font-weight: bold;
+  color:#243b63;
+  padding-top: 2rem;  
+}
+.horizontal-line{
+   border-top: .0625rem solid #e6e6e9;  
+}
+.sugestion{
+  font-size: 40px;
+  padding-left: 5rem;
+  color: #243b63;
+  margin-left: 5.5rem;
+  margin-bottom: 20px;
+  font-family: sans-serif;
+}
+.two-boxes{  
+  display: flex;
+  height: 280px;
+  text-align: center;
+  width: 1000px;
+  font-family: sans-serif;
+  align-self: center; 
+  margin-bottom: 1.5rem;
+  margin-top: .6rem;  
+}
+.NS-flex{ 
+  width: 648px;
+  background: #fff;
+  margin-right: rem;
+  padding-right: rem;
+  box-shadow: 0 0.125rem 0 0 rgba(7,7,33,.15);
+  color: white;
+  z-index: 10;
+  cursor: pointer; 
+}
+.first-p{
+  display: flex;
+  font-size: 20px;
+  padding-left: 2rem;
+  margin-top: 1rem;
+}
+.second-p{
+  font-size: 30px;
+  display: flex;
+  padding-left: 2rem;
+  margin-bottom: 1rem;
+}
+.inside-box{
+  display: flex;
+  flex-direction: column;
+  color: white;
+  width: 12rem;
+  height: 2.5rem;
+  text-align: center;
+  justify-content: center;
+  text-decoration: none;
+  background-color: #0063d3;
+  margin-left: 2rem;
+  margin-top: 7rem;
+  border-radius: 0.2rem;
+  box-shadow: inset 0 -0.125rem 0 #004ba0; 
+  font-size: 1rem;
+  font-weight: 400;
+}
+.inside-box:hover{
+  background-color: #004ba0; 
+}
+.NS-flex{ 
+  background: url(https://www.ns.nl/binaries/_ht_1538662724772/liggend/content/gallery/ns-en/banner-type-a-images/ns-flex-order.jpg)
+}
+.linear-cover{
+  width: 640px;
+  height: 280px;
+  margin-top: -16rem;
+  opacity: .25;
+  background-image: linear-gradient(180deg,rgba(0,0,0,.4) 0,rgba(0,0,0,.2)); 
+}
+.three-equal-blocks{
+  display: flex;
+  font-family: sans-serif;  
+  height: 363px;
+  width: 1000px;
+  align-self: center;
+  margin-top: 1rem;
+  padding-bottom: 1rem;
+  margin-bottom: 1.5rem;
+  list-style: none;
+  font-family: sans-serif;
+}
+.first-block-container{
+  width: 340px;
+  height: 340px;
+  background: #fff;
+  cursor: pointer;
+  margin-right: 1.5rem;
+  box-shadow: 0 0.125rem 0 0 rgba(7,7,33,.15); 
+}
+.first-block-image{
+  background: url(https://www.ns.nl/binaries/_ht_1556605138869/tegel/content/gallery/ns-nl/prijsbanner-afbeeldingen/5-mei.jpg)
+}
+.first-block-image{
+  height: 130px;
+  margin-top: -1.2rem;  
+}
+.mei-retour{
+  padding-left: 2rem;
+  padding-top: 9rem;
+  font-size: 20px;
+  color: #004ba0;
+}
+.naar-festival{
+  padding-left: 2rem;
+  padding-right: 2rem;
+  font-size: 14px;
+}
+.reis-korting{
+  padding-left: 2rem;
+  font-size: 14px;
+}
+.korting{
+  background: none;
+  font-size: 25px;
+  font-family: sans-serif;
+  color: #004ba0;  
+}
+.bestellen{
+  padding-left: 2rem;
+  padding-top: 2rem;
+  color: blue;
+  font-size: 12px;
+}
+.second-block-container{
+  width: 340px;
+  height: 340px;
+  background: #fff;
+  cursor: pointer;
+  margin-right: 1.5rem;
+  box-shadow: 0 0.125rem 0 0 rgba(7,7,33,.15);  
+}
+.second-block-image{
+  background: url(https://www.ns.nl/binaries/_ht_1555575093313/tegel/content/gallery/ns-nl/prijsbanner-afbeeldingen/nsi-zakelijke-campagne.jpg)
+}
+.second-block-image{
+  height: 130px;
+  margin-top: -1.2rem;
+}
+.second-block-p{
+  padding-left: 2rem;
+  padding-top: 9rem;
+  font-size: 20px;
+  color: #004ba0; 
+}
+.reistijd{
+  padding-left: 2rem;
+  padding-right: 2rem;
+  font-size: 14px; 
+}
+.ervar-zelf{
+  padding-left: 2rem;
+  padding-top: 2.5rem;
+  color: blue;
+  font-size: 12px;
+}
+.third-block-container{
+  width: 340px;
+  height: 340px;
+  background: #fff;
+  cursor: pointer;
+  margin-right: 1rem;
+  box-shadow: 0 0.125rem 0 0 rgba(7,7,33,.15);  
+}
+.third-block-image{
+  background: url(https://www.ns.nl/binaries/_ht_1556002988609/tegel/content/gallery/ns-nl/prijsbanner-afbeeldingen/jongerentoer.jpg)
+}
+.third-block-image{
+  height: 130px;
+  margin-top: -1.2rem;
+}
+.jongeren{
+  padding-left: 2rem;
+  padding-top: 9rem;
+  font-size: 20px;
+  color: #004ba0;
+}
+.mei-vakantie{
+  padding-left: 2rem;
+  padding-right: 2rem;
+  font-size: 14px;
+}
+.voor-euro-27{
+  padding-left: 2rem;
+  font-size: 14px;
+}
+.euro-27{
+  background: none;
+  font-size: 25px;
+  color: #004ba0;
+}
+.de-aanbieding{
+  padding-left: 2rem;
+  padding-top: 2rem;
+  color: blue;
+  font-size: 12px;
+}
+.ns-business-container{
+  display: flex;
+  width: 320px;
+  height: 280px;
+  background: #fff;
+  font-family: sans-serif;
+  box-shadow: 0 0.125rem 0 0 rgba(7,7,33,.15);
+  color: white;
+  margin-left: 1.6rem;
+  cursor: pointer;
+}
+.ns-business-image{
+ width: 320.3px;
+ height: 130px;
+ background: #fff;
+ box-shadow: 0 0.125rem 0 0 rgba(7,7,33,.15);
+ color: white;
+ padding-left: 2rem;
+}
+.ns-business-image{
+  background: url(https://www.ns.nl/binaries/_ht_1530178406366/tegel/content/gallery/ns-nl/thema-hero-afbeeldingen/zakelijk/zo-reist-nederland-2.jpg)
+}
+.ns-business-p-1{
+   padding-top: 8rem;
+   color: #243b63;
+   font-size: 20px;
+   padding-right: 1rem;
+}
+.ns-business-p-2{
+  align-content: center;
+  color: black;
+  font-size: 13px;
+  margin-left: 3rem;
+  margin-right: 1rem;
+  font-weight: bold;
+}
+.p-products{
+  color: blue;
+  font-size: 13px;
+  padding-right: 1rem;  
+}
+.discover-holland-container{
+  display: flex;
+  height: 280px;
+  width: 1000px;
+  align-self: center; 
+  margin-bottom: 1.5rem;
+  margin-top: .6rem; 
+}
+.discover-ps{
+   width: 324px;
+   height: 280px;
+   background: #fff;
+   font-size: 13px;
+   color: #0063d3;
+   padding-left: 1rem;
+   padding-right: 1rem;
+   margin-right: 0.8rem;
+   box-shadow: 0 0.125rem 0 0 rgba(7,7,33,.15);   
+}
+.discover{
+  font-size: 20px;
+}
+.horizontal-line-2{
+  border-top: .0625rem solid #e6e6e9;
+  margin-top: 3.5rem;  
+}
+.rijksmuseum-box{
+  width: 660px;
+  height: 280px;
+  margin-left: 0.8rem;
+  box-shadow: 0 0.125rem 0 0 rgba(7,7,33,.15);
+  color: white;
+  cursor: pointer;     
+}
+.rijksmuseum{
+  font-size: 25px;
+  margin-left: 2rem;
+  padding-top: 2rem;
+  font-weight: bold;
+}
+.rijks-p{
+  margin-left: 2rem;
+  margin-right: 25rem;
+  font-size: 24px;
+  color: white;
+}
+.rijks-button{
+  display: flex;
+  flex-direction: column;
+  color: white;
+  width: 8rem;
+  height: 2.5rem;
+  text-align: center;
+  justify-content: center;
+  text-decoration: none;
+  background-color: #0063d3;
+  margin-left: 2rem;
+  margin-top: 3rem;
+  border-radius: 5px;
+  box-shadow: inset 0 -0.125rem 0 #004ba0; 
+  font-size: 1rem;
+  font-weight: 400;
+  cursor: pointer; 
+}
+.rijks-button:hover{
+background-color:#004ba0; 
+}
+.rijksmuseum-image{
+  width: 700px;
+  height: 280px;
+  background: #fff;
+  box-shadow: 0 0.125rem 0 0 rgba(7,7,33,.15);
+  color: white;
+}
+.rijksmuseum-image{
+  background: url(https://www.ns.nl/binaries/_ht_1538661503352/liggend/content/gallery/ns-en/banner-type-a-images/rijksmuseum.jpg)
+}
+.other-three-boxes{
+  display: flex;  
+  height: 363px;
+  width: 1000px;
+  align-self: center;
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+  list-style: none;
+  font-family: sans-serif;
+}
+.two-texts{
+  display: flex;
+  font-size: 30px;
+  padding-left: 5rem;
+  color: #243b63;
+  margin-left: 5.5rem;
+  margin-bottom: 20px;
+  font-family: sans-serif;
+}
+.all-days-out{
+  margin-left: 2rem;
+  padding-top: 1rem;
+  font-size: 12px;
+  display: flex;
+  color: blue;
+  font-family: sans-serif;
+}
+.spoordeel-container{
+  width: 330px;
+  height: 360px;
+  background: #fff;
+  cursor: pointer;
+  margin-right: 1.5rem;
+  box-shadow: 0 0.125rem 0 0 rgba(7,7,33,.15);
+}
+.spoordeel-image{
+  background: url(https://www.ns.nl/binaries/_ht_1551088554379/tegel/content/gallery/ns-nl/prijsbanner-afbeeldingen/spoordeelwinkel/keukenhof-lisse-hero.jpg)
+}
+.spoordeel-image{
+  height: 130px;
+  margin-top: -1rem;
+}
+.spoordeelwinkel{
+  padding-top: 9rem;
+  padding-left: 2rem;
+  font-size: 14px;
+  font-weight: bold;
+}
+.trein{
+  padding-left: 2rem;
+  font-size: 20px;
+}
+.geniet{
+  padding-left: 2rem;
+  padding-right: 4rem;
+  font-size: 12px;
+}
+.price{
+  padding-left: 2rem;
+  font-size: 24px;
+}
+.money{
+  background: none;
+}
+.view-discounts{
+  padding-left: 2rem;
+  color: blue;
+  font-size: 11px;
+}
+.second-dagje-image{
+  background: url(https://www.ns.nl/binaries/_ht_1551787668809/tegel/content/gallery/ns-nl/dagjeuit-hero-afbeeldingen/wandelingen/fort-erfprins-tussen-huisduinen-en-den-helder.jpg)
+}
+.second-dagje-image{
+  height: 130px;
+  margin-top: -1rem; 
+}
+.second-dagje-container{
+  width: 330px;
+  height: 360px;
+  background: #fff;
+  cursor: pointer;
+  margin-right: 1.5rem;
+  box-shadow: 0 0.125rem 0 0 rgba(7,7,33,.15); 
+}
+.k-m{
+  padding-top: 9rem;
+  padding-left: 2rem;
+  font-size: 14px;
+}
+.helderse{
+  padding-left: 2rem;
+  font-size: 20px;
+}
+.station-den-helder{
+  padding-left: 2rem;
+  font-size: 13px;
+}
+.wandeling{
+  padding-left: 2rem;
+  padding-top: 3rem;
+  color: blue;
+  font-size: 11px;
+}
+.third-dagje-container{
+  width: 330px;
+  height: 360px;
+  background: #fff;
+  cursor: pointer;
+  margin-left: .3rem;
+  box-shadow: 0 0.125rem 0 0 rgba(7,7,33,.15);  
+}
+.third-dagje-image{
+  background: url(https://www.ns.nl/binaries/_ht_1553090496403/tegel/content/gallery/ns-nl/dagjeuit-hero-afbeeldingen/wandelingen/ns-wandeling-gein-en-vecht.jpg)
+}
+.third-dagje-image{
+  height: 130px;
+  margin-top: -1rem; 
+}
+.van-tot-14{
+padding-top: 9rem;
+padding-left: 2rem;
+font-size: 14px;
+}
+.gein-vecht{
+  padding-left: 2rem;
+  font-size: 20px;
+}
+.abcoude-naar-weesp{
+  padding-left: 2rem;
+  font-size: 13px; 
+}
+.wandeling{
+  padding-left: 2rem;
+  padding-top: 3rem;
+  color: blue;
+  font-size: 11px;
+}
+.repeat-three-boxes{
+  display: flex;  
+  height: 363px;
+  width: 1000px;
+  align-self: center;
+  margin-top: 1rem;
+  padding-bottom: 1rem;
+  margin-bottom: 1.5rem;
+  list-style: none;
+  font-family: sans-serif;
+}
+.station-venlo-container{
+  width: 330px;
+  height: 360px;
+  background: #fff;
+  cursor: pointer;
+  margin-right: 1.5rem;
+  box-shadow: 0 0.125rem 0 0 rgba(7,7,33,.15);  
+}
+.station-venlo-image{
+  background: url(https://www.ns.nl/binaries/_ht_1553092773947/tegel/content/gallery/ns-nl/dagjeuit-hero-afbeeldingen/wandelingen/voetbrug-met-wandelaars-over-de-nette-ten-o.-van-leuth-5.jpg)
+}
+.station-venlo-image{
+  height: 130px;
+  margin-top: -1rem; 
+}
+.krickenbecker{
+  padding-left: 2rem;
+  font-size: 20px; 
+}
+.blauwe-kamer-container{
+  width: 330px;
+  height: 360px;
+  background: #fff;
+  margin-right: .5rem;
+  cursor: pointer;
+  box-shadow: 0 0.125rem 0 0 rgba(7,7,33,.15); 
+}
+.blauwe-kamer-image{
+  background: url(https://www.ns.nl/binaries/_ht_1553095197886/tegel/content/gallery/ns-nl/dagjeuit-hero-afbeeldingen/wandelingen/omgeving-rhenen-uitkijkpunt-blauwe-kamer.jpg)
+}
+.blauwe-kamer-image{
+  height: 130px;
+  margin-top: -1rem;
+}
+.van-tot{
+  padding-top: 9rem;
+  padding-left: 2rem;
+  font-size: 14px; 
+}
+.station-rhenen{
+  padding-left: 2rem;
+  font-size: 20px; 
+}
+.rond-wandeling{
+  padding-left: 2rem;
+  font-size: 13px; 
+}
+.nachtje-weg-container{
+  width: 320px;
+  height: 350px;
+  background: #fff;
+  cursor: pointer;
+  margin-left: 1.3rem;
+  box-shadow: 0 0.125rem 0 0 rgba(7,7,33,.15); 
+}
+.nachtje-weg-image{
+  background: url(https://www.ns.nl/binaries/_ht_1551363211620/vierkantmedium/content/gallery/ns-nl/banner-type-a-afbeeldingen/dagje-uit/amsterdam-grachten.jpg);
+}
+.nachtje-weg-image{
+  height: 360px;
+  width: 320px;
+  margin-top: -1.9rem;
+  padding-bottom: 1rem;
+}  
+
+.naar-favoriete{
+  padding-top: 5rem;
+  padding-left: 2rem;
+  font-size: 30px;
+  color: white
+}
+.white{
+  background: none;
+  color: white;
+  font-weight: bold;
+  font-size: 35px;
+}
+.nachtje-button{
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline;
+  color: white;
+  width: 10rem;
+  height: 2.5rem;
+  text-align: center;
+  justify-content: center;
+  text-decoration: none;
+  background-color: #0063d3;
+  margin-left: 2rem;
+  margin-top: 6rem;
+  border-radius: 5px;
+  box-shadow: inset 0 -0.125rem 0 #004ba0; 
+  font-size: 1rem;
+  font-weight: 400;
+  cursor: pointer; 
+}
+.nachtje-button:hover{
+  background: blue;
+}
+.bottom{ 
+  display: flex;
+  height: 250px;
+  background: #fff;
+  padding-top: 2rem;
+  margin-top: 1rem;
+  justify-content: space-around;
+  text-decoration: none;
+  color: #004ba0; 
+}
+.under-straight{
+  justify-content: space-around;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 3rem;
+  font-size: 14px;
+  cursor: pointer;
+}
+.straight{
+  font-size: 16px;
+  color: rgb(67, 67, 80);
+  padding-right: 1rem;
+  font-weight: bold;
+}
+.under-products{
+  justify-content: space-around;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 3rem;
+  font-size: 14px; 
+  cursor: pointer;
+}
+.products{
+  font-size: 16px;
+ color: rgb(67, 67, 80);
+ font-weight: bold; 
+}
+.under-more-ns{
+ justify-content: space-around;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 4.6rem;
+  font-size: 14px;
+  cursor: pointer;
+}
+.more-ns{
+ font-size: 16px;
+ color: rgb(67, 67, 80);
+ font-weight: bold;
+}
+.under-social-media{
+ justify-content: space-between;
+  display: flex;
+  flex-direction: column; 
+  padding-bottom: 2rem;
+  font-size: 14px;
+  text-decoration: none;
+  list-style: none;
+  text-decoration: none; 
+}
+.social-media{
+  font-size: 16px;
+  color: rgb(67, 67, 80);;
+  padding-bottom: 1rem;
+  font-weight: bold;
+}
+.facebook{
+  height: 1rem;
+  width: 1rem;
+  margin-right: 1rem;
+  text-decoration: none;
+  font-size: 12px;
+}
+.twitter{
+  height: 1.5rem;
+  width: 1.5rem;
+  margin-right: 1rem;
+  font-size: 12px;  
+}
+.instagram{
+  height: 1.5rem;
+  width: 2.5rem;
+  font-size: 12px;
+  padding-right: 1rem;
+}
+.youtube{
+  height: 2rem;
+  width: 2rem;
+  margin-right: 0.5rem;
+  padding-bottom: .3rem;
+  font-size: 12px; 
+}
+.linkedin{
+  height: 1rem;
+  width: 1.5rem;
+  margin-right: 1rem;
+  margin-left: .5rem;
+  font-size: 12px;
+  text-decoration: none; 
+}
+.third-horizontal-line{
+  width: 1050px;
+  margin-right: -3rem;
+  margin-left: -7rem;
+  align-self: center;
+  border-top: .0425rem solid #0313f1;
+}
+.footer{
+  display: flex; 
+  height: 75px;
+  width: 100%; 
+  background: #fff;
+  padding-top: 2rem;
+  font-size: 13px;
+  list-style: none;
+  z-index: 520;   
+}
+.disclaimer{
+  display: flex;
+  margin-left: 5rem;
+  padding-left: 2rem;
+  color: rgb(118, 118, 131);
+  text-decoration: none;
+}
+.privacy{
+  padding-left: 1rem;
+  margin-left: 1rem;
+  color: rgb(130, 130, 141);
+  text-decoration: none;
+}
+.cookies{
+  padding-left: 1rem;
+  margin-left: 1rem;
+  color: rgb(130, 130, 141);
+  text-decoration: none; 
+}
+.company-information{
+  padding-left: 1rem;
+  margin-left: 1rem;
+  color: rgb(130, 130, 141);
+  text-decoration: none;  
+}
+.requirements{
+  padding-left: 1rem;
+  margin-left: 1rem;
+  color: rgb(130, 130, 141);
+  text-decoration: none; 
+}
+.bottom-logo{
+  margin-left: 22rem;
+  padding-left: 2rem;
+  display: flex;
+  flex: 1; 
+}
