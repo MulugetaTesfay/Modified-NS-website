@@ -15,7 +15,6 @@ body{
     background: #fff;
     height: 60px;
     position: absolute;
-    display: block;
     position: fixed;
     top: 0;
     left: 0;
@@ -39,7 +38,7 @@ body{
  padding-top: 10px;
  margin-left: 31rem;
  padding-right: 5px;
- text-decoration: none;
+ list-style: none;
 }
 .menu-icon{
   height: 1.5rem;
